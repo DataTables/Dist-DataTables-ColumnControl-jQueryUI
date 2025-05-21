@@ -1,0 +1,55 @@
+{
+    "name": "datatables.net-columncontrol-jqui",
+    "description": "ColumnControl for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/columnControl.jqueryui.js",
+    "module": "js/columnControl.jqueryui.mjs",
+    "style": "css/columnControl.jqueryui.css",
+    "types": "./types/columnControl.jqueryui.d.ts",
+    "version": "0.0.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "ColumnControl",
+ "search",
+ "filter",
+ "buttons",
+ "column visibility",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-columncontrol": "~0.0.1",
+        "datatables.net-jqui": "~2.2",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColumnControl-jQueryUI.git"
+    }
+}

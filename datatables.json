@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/columnControl.jqueryui.js",
+        "js/columnControl.jqueryui.min.js",
+        "js/columnControl.jqueryui.min.mjs",
+        "js/columnControl.jqueryui.mjs"
+    ],
+    "css": [
+        "css/columnControl.jqueryui.css",
+        "css/columnControl.jqueryui.min.css"
+    ],
+    "types": [
+        "types/columnControl.jqueryui.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/ColumnControl",
+    "last-tag": "0.0.1",
+    "last-sync": ""
+}
