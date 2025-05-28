@@ -88,10 +88,11 @@ table.dataTable > thead > tr.dtcc-row_no-top-padding > * {
 table.dataTable span.dtcc {
   font-weight: normal;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
 }
 table.dataTable span.dtcc button.dtcc-button {
-  margin-top: calc(var(--dtcc-button_padding) * -1);
-  margin-bottom: calc(var(--dtcc-button_padding) * -1);
+  display: inline-flex;
   padding: var(--dtcc-button_padding);
   border: var(--dtcc-button_border);
   border-radius: var(--dtcc-button_border-radius);
@@ -126,6 +127,8 @@ table.dataTable span.dtcc span.dtcc-button-icon {
   box-sizing: content-box;
   color: var(--dtcc-button-icon_color);
   vertical-align: middle;
+  line-height: var(--dtcc-button-icon_size);
+  height: var(--dtcc-button-icon_size);
 }
 table.dataTable span.dtcc span.dtcc-button-icon svg {
   width: var(--dtcc-button-icon_size);
