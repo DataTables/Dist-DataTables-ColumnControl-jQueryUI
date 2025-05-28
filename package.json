@@ -5,7 +5,7 @@
     "module": "js/columnControl.jqueryui.mjs",
     "style": "css/columnControl.jqueryui.css",
     "types": "./types/columnControl.jqueryui.d.ts",
-    "version": "0.0.1",
+    "version": "0.9.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,20 +14,20 @@
     ],
     "keywords": [
         "ColumnControl",
- "search",
- "filter",
- "buttons",
- "column visibility",
+        "search",
+        "filter",
+        "buttons",
+        "column visibility",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "~0.0.1",
-        "datatables.net-jqui": "^2.3"
+        "datatables.net-columncontrol": "0.9.2",
+        "datatables.net-jqui": "^2.3.0"
     },
     "moduleType": [
         "globals",
