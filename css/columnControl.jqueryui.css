@@ -231,21 +231,21 @@ table.dataTable span.dtcc div.dtcc-searchText > div input {
   padding-right: 46px;
 }
 table.dataTable span.dtcc div.dtcc-searchNumber > div div.dtcc-search-type-icon,
-table.dataTable span.dtcc div.dtcc-searchDate > div div.dtcc-search-type-icon {
+table.dataTable span.dtcc div.dtcc-searchDateTime > div div.dtcc-search-type-icon {
   left: 0;
   z-index: 1;
 }
 table.dataTable span.dtcc div.dtcc-searchNumber > div select,
-table.dataTable span.dtcc div.dtcc-searchDate > div select {
+table.dataTable span.dtcc div.dtcc-searchDateTime > div select {
   left: 0;
   z-index: 2;
 }
 table.dataTable span.dtcc div.dtcc-searchNumber > div span.dtcc-search-clear,
-table.dataTable span.dtcc div.dtcc-searchDate > div span.dtcc-search-clear {
+table.dataTable span.dtcc div.dtcc-searchDateTime > div span.dtcc-search-clear {
   left: 28px;
 }
 table.dataTable span.dtcc div.dtcc-searchNumber > div input,
-table.dataTable span.dtcc div.dtcc-searchDate > div input {
+table.dataTable span.dtcc div.dtcc-searchDateTime > div input {
   padding-left: 46px;
   text-align: right;
 }
