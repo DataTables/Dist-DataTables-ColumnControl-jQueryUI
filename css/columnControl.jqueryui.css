@@ -223,9 +223,11 @@ table.dataTable span.dtcc div.dtcc-searchText > div div.dtcc-search-type-icon {
 table.dataTable span.dtcc div.dtcc-searchText > div select {
   right: 0;
   z-index: 2;
+  padding: 0;
 }
 table.dataTable span.dtcc div.dtcc-searchText > div span.dtcc-search-clear {
   right: 28px;
+  z-index: 1;
 }
 table.dataTable span.dtcc div.dtcc-searchText > div input {
   padding-right: 46px;
