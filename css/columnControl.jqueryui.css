@@ -5,6 +5,7 @@
   --dtcc-button_opacity: 0.4;
   --dtcc-button_padding: 3px;
   --dtcc-button_disabled-opacity: 0.6;
+  --dtcc-button_empty-opacity: 0.8;
   --dtcc-button_hover-border: none;
   --dtcc-button_hover-background: rgba(0, 0, 0, 0.1);
   --dtcc-button_hover-opacity: 0.9;
@@ -284,6 +285,10 @@ div.dtcc-dropdown button.dtcc-button:hover {
 div.dtcc-dropdown button.dtcc-button.dtcc-button_disabled {
   cursor: initial;
   opacity: var(--dtcc-button_disabled-opacity);
+}
+div.dtcc-dropdown button.dtcc-button.dtcc-button_empty span.dtcc-button-text {
+  opacity: var(--dtcc-button_empty-opacity);
+  font-style: italic;
 }
 div.dtcc-dropdown button.dtcc-button > span.dtcc-button-state {
   display: block;
