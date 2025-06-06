@@ -5,7 +5,7 @@
     "module": "js/columnControl.jqueryui.mjs",
     "style": "css/columnControl.jqueryui.css",
     "types": "./types/columnControl.jqueryui.d.ts",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -26,8 +26,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-columncontrol": "1.0.3",
-        "datatables.net-jqui": "^2.3"
+        "datatables.net-columncontrol": "1.0.4",
+        "datatables.net-jqui": "^2.3.2"
     },
     "moduleType": [
         "globals",
