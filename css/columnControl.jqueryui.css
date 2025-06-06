@@ -153,6 +153,9 @@ table.dataTable span.dtcc div.dtcc-spacer:empty {
   height: 1em;
   padding-left: 0;
 }
+table.dataTable span.dtcc div.dtcc-search {
+  flex-grow: 1;
+}
 table.dataTable span.dtcc div.dtcc-search div.dtcc-search-title {
   margin-bottom: 0.25em;
   text-align: left;
