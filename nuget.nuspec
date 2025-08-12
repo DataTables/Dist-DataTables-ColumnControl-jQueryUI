@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>ColumnControl  search  filter  buttons  column visibility  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-columncontrol" version="0.0.1"/>
-            <dependency id="datatables.net-jqui" version="2.3.1"/>
+            <dependency id="datatables.net-columncontrol" version="1.0.7"/>
+            <dependency id="datatables.net-jqui" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/columnControl.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/columnControl.jqueryui.min.js" target="content\Scripts"/>
         <file src="js/columnControl.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/columnControl.jqueryui.min.mjs" target="content\Scripts"/>
+        <file src="js/columnControl.jqueryui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/columnControl.jqueryui.mjs" target="content\Scripts"/>
+        <file src="js/columnControl.jqueryui.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/columnControl.jqueryui.css" target="content\Content"/>
         <file src="css/columnControl.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/columnControl.jqueryui.min.css" target="content\Content"/>
