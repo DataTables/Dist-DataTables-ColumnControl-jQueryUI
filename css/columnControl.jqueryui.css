@@ -401,11 +401,13 @@ div.dtcc-dropdown div.dtcc-search > div span.dtcc-search-clear {
 div.dtcc-dropdown div.dtcc-search:not(.dtcc-search_active) span.dtcc-search-clear {
   display: none;
 }
-div.dtcc-dropdown div.dtcc-list div.dtcc-list-title {
+div.dtcc-dropdown div.dtcc-list div.dtcc-list-title,
+div.dtcc-dropdown div.dtcc-list div.dtcc-list-empty {
   padding: var(--dtcc-dropdown-button_padding);
   font-style: italic;
 }
-div.dtcc-dropdown div.dtcc-list div.dtcc-list-title:empty {
+div.dtcc-dropdown div.dtcc-list div.dtcc-list-title:empty,
+div.dtcc-dropdown div.dtcc-list div.dtcc-list-empty:empty {
   display: none;
 }
 div.dtcc-dropdown div.dtcc-list div.dtcc-list-controls {
