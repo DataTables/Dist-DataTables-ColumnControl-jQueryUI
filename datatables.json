@@ -13,6 +13,6 @@
         "types/columnControl.jqueryui.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/ColumnControl",
-    "last-tag": "1.1.0",
+    "last-tag": "1.1.1",
     "last-sync": "e72da51146691efe6781d3397964721185047204"
 }
