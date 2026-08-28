@@ -225,6 +225,7 @@ table.dataTable span.dtcc div.dtcc-search > div select {
   cursor: pointer;
   opacity: 0;
   background-color: var(--dtcc-search-input_background);
+  color: inherit;
 }
 
 table.dataTable span.dtcc div.dtcc-search > div span.dtcc-search-clear {
