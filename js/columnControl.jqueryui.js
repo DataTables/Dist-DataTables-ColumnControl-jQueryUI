@@ -1,4 +1,4 @@
-/*! ColumnControl jQuery UI styling 2.0.1 for DataTables
+/*! ColumnControl jQuery UI styling 2.0.2 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
