@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-columncontrol-jqui",
     "description": "ColumnControl for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/columnControl.jqueryui.js",
-    "module": "js/columnControl.jqueryui.mjs",
-    "style": "css/columnControl.jqueryui.css",
+    "main": "./js/columnControl.jqueryui.js",
+    "module": "./js/columnControl.jqueryui.mjs",
+    "style": "./css/columnControl.jqueryui.css",
     "types": "./types/columnControl.jqueryui.d.ts",
     "version": "2.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColumnControl",
@@ -39,5 +38,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColumnControl.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/columnControl.jqueryui.d.ts",
+            "import": "./js/columnControl.jqueryui.mjs",
+            "default": "./js/columnControl.jqueryui.mjs",
+            "require": "./js/columnControl.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/columnControl.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
