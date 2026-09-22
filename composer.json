@@ -30,7 +30,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-columncontrol": "2.0.1",
-        "datatables.net/datatables.net-jqui": "^3"
+        "datatables.net/datatables.net-columncontrol": "2.1.0",
+        "datatables.net/datatables.net-jqui": "^3.1"
     }
 }
