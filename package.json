@@ -42,9 +42,10 @@
     "exports": {
         ".": {
             "types": "./types/columnControl.jqueryui.d.ts",
+            "style": "./css/columnControl.jqueryui.css",
             "import": "./js/columnControl.jqueryui.mjs",
-            "default": "./js/columnControl.jqueryui.mjs",
-            "require": "./js/columnControl.jqueryui.js"
+            "require": "./js/columnControl.jqueryui.js",
+            "default": "./js/columnControl.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
